@@ -19,9 +19,9 @@ Please see the included readme for detailed instructions.
 # Contributors
 *katalash* - GPARAM support\
 *TKGP* - Everything else\
-*Rayan* - Testing
-*Avocado* - Additional formats (among other features)
-*WarpZephyr (NatsuDragneelTheFireDragon)* - mqb support
+*Rayan* - Testing\
+*Avocado* - Additional formats (among other features)\
+*WarpZephyr (NatsuDragneelTheFireDragon)* - mqb support\
 *Rainer* - adding mqb support to avocado specifically
 
 # Changelog
