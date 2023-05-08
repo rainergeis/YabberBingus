@@ -1,9 +1,7 @@
-## Note: This repo will not be updated. It only serves the purpose of archiving YabberAvocado, which is, as of November 13th, 2022, no longer maintained and unavailable to download from the original maintainer's repository.
-Due to potential problems with the code, this project should only ever be used as a reference. Problems will not be addressed.
 
 # Yabber
 An unpacker/repacker for common Demon's Souls, Dark Souls 1-3, Bloodborne, and Sekiro file formats.\
-Supports `.btab, .fxr, .msb, .blt, .matbin, .mtd, .bnd, .bhd/.bdt, .dcx, .fltparam, .fmg, .gparam, .luagnl, .luainfo, .tpf`.\
+Supports `.mqb, .btab, .fxr, .msb, .blt, .matbin, .mtd, .bnd, .bhd/.bdt, .dcx, .fltparam, .fmg, .gparam, .luagnl, .luainfo, .tpf`.\
 If you want to convert `.msb` files, you will need to create a file named `_er`, `_ds3`, etc. depending on the game the `.msb` is for (info is given when trying to convert).\
 So far Demon's Souls `.msb` files can't be converted, sorry.
 
@@ -23,9 +21,15 @@ Please see the included readme for detailed instructions.
 *TKGP* - Everything else\
 *Rayan* - Testing
 *Avocado* - Additional formats (among other features)
+*WarpZephyr (NatsuDragneelTheFireDragon)* - mqb support
+*Rainer* - adding mqb support to avocado specifically
 
 # Changelog
-### 1.0.6 - Final Update
+### 1.0.6
+* Added mqb support for ER 
+
+# Changelog
+### 1.0.6 - Not The Final Update
 * Added Unk40 to gparams - fixed issues for ER
 
 ### 1.0.5
