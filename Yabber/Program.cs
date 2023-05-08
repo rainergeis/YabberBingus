@@ -425,6 +425,17 @@ namespace Yabber
                 Zero3 z3 = Zero3.Read(sourceFile);
                 z3.Unpack(targetDir);
             }
+            else if (MQB.Is(sourceFile))
+            {
+                Console.WriteLine($"Converting MQB: {filename}...");
+                MQB mqb = MQB.Read(sourceFile);
+                mqb.Unpack(filename, sourceDir, progress);
+            }
+            else if (sourceFile.EndsWith(".mqb.xml"))
+            {
+                Console.WriteLine($"Converting XML to MQB: {filename}...");
+                YMQB.Repack(sourceFile);
+            }
             else
             {
                 Console.WriteLine($"File format not recognized: {filename}");
